@@ -2,10 +2,6 @@
 
 Technical exercise
 
-Please find below the technical exercise; take your time to go through it carefully and make sure you understand all the requirements. 
-
-Please share the repository link containing the application source code when finished.Thanks for your participation and effort in this exercise. We're excited to see your work!
-----------------------------------------------------------
 [Backend] Rate-Limited Notification Service
 We have a Notification system that sends out email notifications of various types (status update, daily news, project invitations, etc). We need to protect recipients from getting too many emails, either due to system errors or due to abuse, so let’s limit the number of emails sent to them by implementing a rate-limited version of NotificationService.
 The system must reject requests that are over the limit.
