@@ -1,0 +1,19 @@
+{
+    "name": "rate-limited-notification-service",
+    "version": "1.0.0",
+    "description": "A TypeScript project implementing a rate-limited notification service.",
+    "main": "src/index.ts",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest",
+      "start": "node dist/index.js"
+    },
+    "dependencies": {
+      "typescript": "^4.0.0"
+    },
+    "devDependencies": {
+      "jest": "^26.6.0",
+      "ts-jest": "^26.5.0"
+    }
+  }
+  
